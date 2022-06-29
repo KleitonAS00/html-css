@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -21,6 +22,12 @@
             border: 1px solid black;
             padding: 5px;
             
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: blueviolet;
         }
 
         td, th {
@@ -33,8 +40,12 @@
             text-align: right;
         }
 
-        thead {
+        thead, tfoot {
             background-color: blueviolet;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -169,6 +180,14 @@
             <td class="num"><strong>210.500.896</strong></td>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maxime corporis sit voluptate voluptas. Sapiente neque, aspernatur qui, ex necessitatibus nisi nulla omnis error, culpa eveniet eos odit fuga at.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, soluta architecto. Repellat, saepe non a mollitia, eum odio aut itaque modi voluptas eos, voluptates laudantium quam et rerum fugit? Atque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, necessitatibus inventore. Necessitatibus eum expedita deleniti iure, odit quis hic reiciendis facilis placeat eveniet illum laborum, repellat voluptatibus pariatur. Consequuntur, accusamus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, necessitatibus inventore. Necessitatibus eum expedita deleniti iure, odit quis hic reiciendis facilis placeat eveniet illum laborum, repellat voluptatibus pariatur. Consequuntur, accusamus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, necessitatibus inventore. Necessitatibus eum expedita deleniti iure, odit quis hic reiciendis facilis placeat eveniet illum laborum, repellat voluptatibus pariatur. Consequuntur, accusamus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, necessitatibus inventore. Necessitatibus eum expedita deleniti iure, odit quis hic reiciendis facilis placeat eveniet illum laborum, repellat voluptatibus pariatur. Consequuntur, accusamus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, necessitatibus inventore. Necessitatibus eum expedita deleniti iure, odit quis hic reiciendis facilis placeat eveniet illum laborum, repellat voluptatibus pariatur. Consequuntur, accusamus!</p>
+    
         
 </body>
 </html>
