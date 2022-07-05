@@ -11,7 +11,8 @@
         }
 
         caption {
-            
+            padding: 5px;
+            font-weight: bold;
         }
 
         table {
@@ -41,13 +42,13 @@
         <caption>Filmes Favovitos</caption>
         <thead>
             <tr>
-                <th id="indice" >Grupo</th>
-                <th>Nomes</th>
+                <th scope="col" id="indice" >Grupo</th>
+                <th scope="colgroup">Nomes</th>
                 <th colspan="3">Filmes</th>
             </tr>
             <tbody>
                 <tr>
-                    <th rowspan="3">Mulheres</th>
+                    <th scope="rowgroup" rowspan="3">Mulheres</th>
                     <td>Ana maria</td>
                     <td>Allien</td>
                     <td>Rambo</td>
@@ -66,7 +67,7 @@
                     <td>Big Hero</td>
                 </tr>
                 <tr>
-                    <th rowspan="3">Homens</th>
+                    <th scope="rowgroup" rowspan="3">Homens</th>
                     <td>Bruno Mendonça</td>
                     <td>Intocáveis</td>
                     <td>Gladiador</td>
