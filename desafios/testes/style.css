@@ -89,4 +89,23 @@ a#esqueceu {
     font-size: 0.7em;
     padding: 10px;
     display: block;
+    margin-bottom: 15px;
 }
+
+a#esqueceu:hover {
+    text-decoration: underline;
+}
+
+a#nova {
+    background-color:#36A420;
+    display: ;
+    padding: 12px;
+    margin-top: 15px;
+    max-width: 150px;
+    border-radius: 5px;
+    font: normal bold 0.9em arial;
+    color: white;
+    text-decoration: none;
+}
+
+a#novaaaaaaa
