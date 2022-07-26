@@ -13,8 +13,9 @@ body {
 }
 main {
     display: flex;
-    align-items: center;
+    
     margin: 100px;
+    align-content: content;
 
 }
 
@@ -98,14 +99,15 @@ a#esqueceu:hover {
 
 a#nova {
     background-color:#36A420;
-    display: ;
     padding: 12px;
     margin-top: 15px;
     max-width: 150px;
     border-radius: 5px;
-    font: normal bold 0.9em arial;
+    font: normal bold 0.8em arial;
     color: white;
     text-decoration: none;
 }
 
-a#novaaaaaaa
+a#nova:hover {
+    background-color: #31961d;
+}
