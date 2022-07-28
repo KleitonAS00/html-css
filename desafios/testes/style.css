@@ -15,7 +15,7 @@ main {
     display: flex;
     
     margin: 100px;
-    align-content: content;
+    align-items: center;
 
 }
 
@@ -29,7 +29,7 @@ section#facebook {
     flex-direction: column;
     text-align: left;
     max-width: 500px;
-    padding: 50px;
+    padding-right: 50px;
 }
 section#facebook > p {
     font-size: 1.5em;
@@ -41,7 +41,7 @@ div.right {
 }
 
 input#isenha, #ilogin {
-    padding: 10px;
+    padding: 12px;
     width: 280px;
     border-radius: 4px;
     border: 1px solid rgb(224, 224, 224);
@@ -97,7 +97,9 @@ a#esqueceu:hover {
     text-decoration: underline;
 }
 
-a#nova {
+
+
+div.criar-conta {
     background-color:#36A420;
     padding: 12px;
     margin-top: 15px;
