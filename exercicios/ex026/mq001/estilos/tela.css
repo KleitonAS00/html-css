@@ -12,12 +12,25 @@ html {
     font-size: 1em;
 }
 
+body {
+    background-color: lightpink;
+}
+
 header {
     background-color: gray;
 }
 
 header > h1 {
     text-align: cente;
+}
+
+main {
+    background-color: rgb(169, 220, 250); 
+    width: 80vw;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 menu ul {
@@ -33,7 +46,7 @@ menu li {
 }
 
 article {
-    width: 600px;
+    
     display: block;
     margin: auto;
 }
