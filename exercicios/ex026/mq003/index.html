@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Features</title>
+    <style>
+        /*Declarações Gerais*/
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #1527a8;
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+        }
+
+        h1 {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-shadow: 3px 3px 0px #233efe;
+            padding: 10px;
+        }
+
+        /*Declarações retrato*/
+
+        @media screen and (orientation: portrait) {
+            body {
+                background-image: url(../imagens/cev-portrait.jpg);
+                background-position: center bottom;
+            }
+
+        }
+
+        /*Declarações Paisagem*/
+
+        @media screen and (orientation: landscape) {
+            body {
+                background-image: url(../imagens/cev-landscape.jpg);
+                background-position: center bottom;
+            }
+        }
+
+    </style>
+</head>
+<body>
+   <h1>Mude a orientação do seu dispositivo</h1> 
+</body>
+</html>
