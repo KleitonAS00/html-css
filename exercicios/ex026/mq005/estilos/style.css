@@ -22,7 +22,7 @@ header > h1 {
 }
 
 span#burguer {
-    background-color: lightsalmon;
+    background-color: rgb(242, 250, 135);
     display: block;
     text-align: center;
     padding: 10px;
@@ -30,7 +30,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: rgb(252, 123, 72);
+    background-color: lightsalmon;
 
 }
 
